@@ -12,6 +12,7 @@ function App() {
   return (
     <ApolloProvider client={client}>
       <div className="App">
+        test
         <Features />
       </div>
     </ApolloProvider>
