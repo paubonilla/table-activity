@@ -41,7 +41,7 @@ export default function AvailableFeatures() {
                             features.map((feature, i) => (
                                 <Table.Body>
                                     <Table.Row>
-                                        <Table.Cell active>{feature.name}</Table.Cell>
+                                        <Table.Cell active className="feature-name">{feature.name}</Table.Cell>
                                         <Table.Cell className="active-features" >{(feature.macBinding === null || feature.macBinding === "") ?
                                             "Not Available"
                                             : feature.macBinding}</Table.Cell>
