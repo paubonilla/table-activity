@@ -13,7 +13,7 @@ const client = new ApolloClient({
 export default function AvailableFeatures() {
     const [features, setFeatures] = React.useState([])
     const { loading, error, data } = useQuery(FEATURES__QUERY, {
-        variables: { "_id": "5d534aec27c3f0fccf882fe8" }
+        variables: { "_id": "5da7fe35169c741132344838" }
     })
 
     React.useEffect(() => {
